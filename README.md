@@ -6,30 +6,20 @@ ProductivityDock helps you stay focused using a simple **Pomodoro-style timer**,
 
 ---
 
-## ✨ Features
+## 🧠 Learn While You Stay Productive
 
-- ⏱ Focus timer (Pomodoro-style sessions)
-- ☕ Cooldown / break sessions
-- 🧠 Block screen during breaks (distraction control)
-- 🖥 System tray integration (runs quietly in background)
-- ⚡ Start / Pause / Resume / Reset controls
-- 🎛 Settings window for customizing session & cooldown durations
-- 🎯 Minimal and distraction-free UI
+ProductivityDock is not just a timer — it helps you build better focus habits and grow at the same time.
 
+During your breaks, it encourages:
+- 🧘 Rest and mental reset (to avoid burnout)
+- 📚 Learning new skills through videos and educational content
+- 💡 Productivity tips and useful insights
+- 🎥 Watching short YouTube videos or learning content during cooldown time
+
+The goal is simple:
+> Stay productive while also improving yourself during every break.
 ---
 
-## 🖼 Screenshots
-
-### 🧭 Main Window (Timer Dashboard)
-![Main Window](screenshots/main-window.png)
-
-### 🚫 Block Window (Focus Protection Mode)
-![Block Window](screenshots/block-window.png)
-
-### ⚙️ Settings Window
-![Settings Window](screenshots/settings-window.png)
-
----
 
 ## 📦 Download & Installation
 
@@ -55,3 +45,28 @@ https://github.com/YOUR_USERNAME/ProductivityDock/releases/latest
 
 ```bash
 git clone https://github.com/harfy345/ProductivityDock.git
+```
+---
+## ✨ Features
+
+- ⏱ Focus timer (Pomodoro-style sessions)
+- ☕ Cooldown / break sessions
+- 🧠 Block screen during breaks (distraction control)
+- 🖥 System tray integration (runs quietly in background)
+- ⚡ Start / Pause / Resume / Reset controls
+- 🎛 Settings window for customizing session & cooldown durations
+- 🎯 Minimal and distraction-free UI
+
+---
+
+## 🖼 Screenshots
+
+### 🧭 Main Window (Timer Dashboard)
+![Main Window](screenshots/main-window.png)
+
+### 🚫 Block Window (Focus Protection Mode)
+![Block Window](screenshots/block-window.png)
+
+### ⚙️ Settings Window
+![Settings Window](screenshots/settings-window.png)
+

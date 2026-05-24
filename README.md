@@ -65,7 +65,7 @@ git clone https://github.com/harfy345/ProductivityDock.git
 
 ## 🖼 Screenshots
 You can find and access the app anytime in the windows tray as shown below
-### 🧭 Main Window (Timer Dashboard)
+### 🧭 Windows Tray (Timer Dashboard)
 ![Main Window](screenshots/trayView.png)
 
 ### 🧭 Main Window (Timer Dashboard)

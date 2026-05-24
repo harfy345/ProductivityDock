@@ -1,0 +1,156 @@
+﻿<UserControl x:Class="ProductivityApp.UI.BlockWindowRecommendationPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="20">
+
+        <!-- ROWS -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- COLUMNS (for top section only) -->
+        <Grid Grid.Row="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- LEFT PANEL -->
+            <Border Background="#1AFFFFFF"
+                    CornerRadius="12"
+                    Padding="20"
+                    Margin="10"
+                    Grid.Column="0">
+
+                <StackPanel>
+
+                    <TextBlock Text="💡 Productivity Suggestions"
+                               FontSize="20"
+                               Foreground="White"
+                               Margin="0,0,0,10"/>
+
+                    <TextBlock Text="• Take a 2–5 minute break after focus sessions"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                    <TextBlock Text="• Drink water"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                    <TextBlock Text="• Write your next task before continuing"
+                               Foreground="LightGray"
+                               Margin="0,5"/>
+
+                    <TextBlock Text="• Avoid switching tasks for 10–15 minutes"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                </StackPanel>
+            </Border>
+
+            <!-- RIGHT PANEL -->
+            <Border Background="#1AFFFFFF"
+                    CornerRadius="12"
+                    Padding="20"
+                    Margin="10"
+                    Grid.Column="1">
+
+                <StackPanel>
+
+                    <TextBlock Text="🔥 Quick Actions"
+                               FontSize="20"
+                               Foreground="White"
+                               Margin="0,0,0,10"/>
+
+                    <TextBlock Text="• Plan your next task"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                    <TextBlock Text="• Close unnecessary apps"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                    <TextBlock Text="• Set a 25 min focus goal"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                    <TextBlock Text="• Stretch for 30 seconds"
+                               Foreground="LightGray"
+                               Margin="0,5"
+                               FontSize="15"
+                               />
+
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+        <!-- FULL WIDTH BOTTOM PANEL -->
+        <Border Background="#1AFFFFFF"
+                CornerRadius="12"
+                Padding="20"
+                Margin="10"
+                Grid.Row="1"
+                Grid.ColumnSpan="2">
+
+            <StackPanel>
+
+                <TextBlock Text="📊 How About Learning!  -  Watch some videos:"
+                           FontSize="20"
+                           Foreground="White"
+                           Margin="0,0,0,10"/>
+
+
+
+                <ItemsControl>
+                    <ItemsControl.Items>
+
+                        <!-- ITEM 1 -->
+                        <StackPanel Margin="0,10">
+                            <TextBlock FontSize="20" Foreground="White">
+                            <Run Text="Be More Productive: "/>
+
+                            <Hyperlink NavigateUri="https://youtu.be/3kKB6wYqP7Y?si=MGbVkThwaRk9m-SD"
+                                       RequestNavigate="Hyperlink_RequestNavigate">
+                            Being Productive is easy
+                            </Hyperlink>
+                            </TextBlock>
+                        </StackPanel>
+
+                        <!-- ITEM 2 -->
+                        <StackPanel Margin="0,10">
+                            <TextBlock FontSize="20" Foreground="White">
+                            <Run Text="Enjoying The Imagination Game With What If "/>
+
+                            <Hyperlink NavigateUri="https://www.youtube.com/@whatifscienceshow/videos"
+                           RequestNavigate="Hyperlink_RequestNavigate">
+                            What If Page
+                            </Hyperlink>
+                             </TextBlock>
+                        </StackPanel>
+
+                    </ItemsControl.Items>
+                </ItemsControl>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+
+</UserControl>

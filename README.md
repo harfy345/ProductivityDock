@@ -77,3 +77,41 @@ You can find and access the app anytime in the windows tray as shown below
 ### ⚙️ Settings Window
 ![Settings Window](screenshots/settings-window.png)
 
+---
+
+## 🚀 Coming Soon
+
+ProductivityDock is actively being improved, and new features are on the way.
+
+### 🧠 Smart Tips & Recommendations
+- Personalized productivity tips based on your usage
+- Better break-time suggestions
+- Focus improvement insights over time
+
+### 📱 Mobile Version (In Development)
+A mobile version of ProductivityDock is planned to help you:
+- Track productivity on the go
+- Receive break reminders on your phone
+- Stay consistent across devices
+
+---
+
+> The goal is to build a complete productivity ecosystem across desktop and mobile.
+
+---
+
+## 🐛 Issues & Feedback - Help Us Grow
+
+ProductivityDock is actively improving, and feedback is highly appreciated.
+
+If you encounter any bugs, unexpected behavior, or have suggestions for improvements, feel free to open an issue.
+
+👉 https://github.com/harfy345/ProductivityDock/issues
+
+### 💡 What to report:
+- Bugs or crashes
+- UI or usability issues
+- Feature suggestions
+- Performance problems
+
+Every report helps make ProductivityDock better for everyone.

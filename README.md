@@ -1,4 +1,8 @@
 # ProductivityDock 🚀
+![.NET](https://img.shields.io/badge/.NET-WPF-blue)
+![C#](https://img.shields.io/badge/C%23-Programming-purple)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Productivity](https://img.shields.io/badge/Productivity-Focus-green)
 
 A lightweight Windows productivity tray app built with **C# WPF**.
 

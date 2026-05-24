@@ -30,7 +30,7 @@ The goal is simple:
 ### 🚀 Windows Installer (Recommended)
 
 👉 Download the latest version here:
-https://github.com/YOUR_USERNAME/ProductivityDock/releases/latest
+https://github.com/harfy345/ProductivityDock/releases/latest
 
 ### Steps:
 1. Download `ProductivityDockInstaller.exe`
